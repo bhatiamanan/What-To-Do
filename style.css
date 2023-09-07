@@ -109,7 +109,7 @@ ul li.checked::before{
 ul li span:hover{
     background: rgb(203, 195, 195);
 }
-@media screen and (max-width: 768px) {
+/* @media screen and (max-width: 768px) {
     .container {
         padding: 20px;
     }
@@ -136,7 +136,7 @@ ul li span:hover{
     }
 }
 
-/* Media Query for Smaller Screens */
+Media Query for Smaller Screens
 @media screen and (max-width: 325px) {
     .container {
         padding: 8px;
@@ -189,3 +189,4 @@ ul li span:hover{
         font-size: 4px;
     }
 }
+ */
