@@ -163,3 +163,29 @@ ul li span:hover{
         font-size: 8px;
     }
 }
+@media screen and (max-width: 237px) {
+    .container {
+        padding: 4px;
+    }
+
+    .todo {
+        padding: 8px;
+    }
+
+    .row {
+        padding-left: 3px;
+    }
+
+    input {
+        padding: 2px;
+    }
+
+    button {
+        padding: 7px 10px;
+        font-size: 5px;
+    }
+
+    ul li {
+        font-size: 4px;
+    }
+}
