@@ -110,7 +110,7 @@ ul li.checked::before{
 ul li span:hover{
     background: rgb(203, 195, 195);
 }
-@media screen and (max-width: 380px) {
+@media screen and (max-width: 680px) {
     .container {
         padding: 8px;
     }
