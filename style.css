@@ -109,3 +109,57 @@ ul li.checked::before{
 ul li span:hover{
     background: rgb(203, 195, 195);
 }
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    .todo {
+        padding: 30px;
+    }
+
+    .row {
+        padding-left: 10px;
+    }
+
+    input {
+        padding: 8px;
+    }
+
+    button {
+        padding: 12px 30px;
+        font-size: 14px;
+    }
+
+    ul li {
+        font-size: 16px;
+    }
+}
+
+/* Media Query for Smaller Screens */
+@media screen and (max-width: 325px) {
+    .container {
+        padding: 8px;
+    }
+
+    .todo {
+        padding: 15px;
+    }
+
+    .row {
+        padding-left: 5px;
+    }
+
+    input {
+        padding: 4px;
+    }
+
+    button {
+        padding: 8px 15px;
+        font-size: 7px;
+    }
+
+    ul li {
+        font-size: 8px;
+    }
+}
