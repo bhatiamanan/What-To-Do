@@ -149,16 +149,88 @@ ul li span:hover{
     .container {
         padding: 60px;
     }
+    .todo {
+        padding: 10px;
+    }
+    .row {
+        padding-left: 4px;
+    }
+    input {
+        padding: 3px;
+    }
+    button {
+        padding: 7px 18px;
+        font-size: 6px;
+    }
+    ul li {
+        font-size: 13px;
+    }
+    ul li::before{
+        height: 21px;
+        width: 21px;
+    }
+    ul li span{
+        top: 1px;
+        font-size: 16px;
+    }
 }
 @media screen and (max-width: 350px) {
     .container {
         padding: 40px;
+    }
+    .todo {
+        padding: 8px;
+    }
+    .row {
+        padding-left: 3px;
+    }
+    input {
+        padding: 3px;
+    }
+    button {
+        padding: 6px 14px;
+        font-size: 6px;
+    }
+    ul li {
+        font-size: 13px;
+    }
+    ul li::before{
+        height: 19px;
+        width: 19px;
+    }
+    ul li span{
+        top: 1px;
+        font-size: 14px;
     }
 }
 
 @media screen and (max-width: 310px) {
     .container {
         padding: 20px;
+    }
+    .todo {
+        padding: 6px;
+    }
+    .row {
+        padding-left: 2px;
+    }
+    input {
+        padding: 2px;
+    }
+    button {
+        padding: 5px 12px;
+        font-size: 5px;
+    }
+    ul li {
+        font-size: 12px;
+    }
+    ul li::before{
+        height: 17px;
+        width: 17px;
+    }
+    ul li span{
+        top: 1px;
+        font-size: 12px;
     }
 }
 /* @media screen and (max-width: 380px) {
