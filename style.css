@@ -133,7 +133,15 @@ ul li span:hover{
     }
 
     ul li {
-        font-size: 8px;
+        font-size: 13px;
+    }
+    ul li::before{
+        height: 23px;
+        width: 23px;
+    }
+    ul li span{
+        top: 1px;
+        font-size: 18px;
     }
 }
 
